@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
         result[name] ||= {}
         result[name][key] ||= []
         result[name][key] << value.to_s
-          # binding.pry
+          binding.pry
       end
     end
   end
